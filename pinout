@@ -1,0 +1,71 @@
+
+
+
+
+Data connected via 1k each (4 times)
+DISCONNECT USB!!!!
+
+PCB:
+Grey   - GND   -  25 GND
+Red    - 3.3 V -  18 3.3 V
+Brown  - SCK   -  23 SCLK
+Yellow - MISO  -  21 MISO
+Green  - MOSI  -  19 MOSI
+Green/W- Reset -  15 GPIO 22
+
+PI:  connector up left
+use the right down connections - left to right
+
+Red    - 3.3 V -  18 3.3 V
+Green  - MOSI  -  19 MOSI
+Yellow - MISO  -  21 MISO
+Brown  - SCK   -  23 SCLK
+Green/W- Reset -  15 GPIO 22
+Grey   - GND   -  25 GND
+
+
+Pinout of the ATMega328P
+
+PC6 - reset
+PD0 - unused
+PD1 - unused 
+PD2 - unused
+PD3 - unused
+PD4 - unused
+
+PB6 - XTAL1
+PB7 - XTAL2
+PD5 - M1 Enable 1,2
+PD6 - M2 Enable 3,4
+PD7 - Trig
+PB0 - Echo
+
+PC5 - M1 - 2A
+PC4 - M1 - 1A
+PC3 - M2 - 4A
+PC2 - M1 - 3A
+PC1 - unused
+PC0 - unused
+
+PB5 - SCLK
+PB4 - MISO
+PB3 - MOSI
+PB2 - IR - Input
+PB1 - Servo Ctrl
+
+
+Serial  Port
+Board - Adapter
+GND   - GND Grey
+TX    - RX  Yellow
+RX    - TX  Green
+
+Motor 1
+Blue
+Violet
+Motor 2
+Yellow
+Green
+
+
+15uH Drossel 
